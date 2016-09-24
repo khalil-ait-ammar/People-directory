@@ -1,0 +1,40 @@
+
+.Banner {
+    margin: 0;
+    width: 100%;
+    height: 91px;
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+
+}
+
+.menu{
+    background-image: url("../img/menu.png");
+    display: inline-block;
+    width: 100%;
+    height: 36px;
+}
+.btnMenu {
+    background-image: -moz-linear-gradient( 90deg, rgb(97,146,39) 0%, rgb(135,184,33) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(97,146,39) 0%, rgb(135,184,33) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(97,146,39) 0%, rgb(135,184,33) 100%);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    width: auto;
+    height: 35px;
+    margin-left: -5px;
+
+}
+.btnMenu > a {
+    text-decoration: none !important;
+}
+.btnMenu > a > p{
+    color: white;
+
+    padding: 8px 12px 8px 12px;
+
+}
+
+.btnMenu:first-child {
+ margin-left: 50px;
+}
