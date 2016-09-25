@@ -9,49 +9,48 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body ng-app="pDirectory">
+<body ng-app="Directory" ng-controller="MainCtrl" >
 
 <div class="container-fluid">
 
     <div class="row">
         <div class="col-md-12 Banner">
         </div>
-
-        <nav class="{{active}} menu" ng-click="$event.preventDefault()">
-
+        <nav class="menu" ng-init="active=true" >
 
             <div  class="btnMenu">
-                <a href="#" class="home" ng-click="active='home'"><p> Demo's home </p></a>
+                <a href="#/home" class="home"    ng-class="{'active': isActive}" ng-click="activeButton()"><p> Demo's home </p></a>
             </div>
 
             <div  class="btnMenu">
-                <a href="#" class="home" ng-click="active='home'"><p> People directory </p></a>
-            </div>
-            <div  class="btnMenu">
-                <a href="#" class="home" ng-click="active='home'"><p> jobs manager </p></a>
-            </div>
-            <div  class="btnMenu">
-                <a href="#" class="home" ng-click="active='home'"><p> statistics </p></a>
+                <a href="#/contact" class="home"><p> People directory </p></a>
             </div>
 
+            <div  class="btnMenu">
+                <a href="#" class="home"><p> jobs manager </p></a>
+            </div>
 
+            <div  class="btnMenu">
+                <a href="#" class="home"><p> statistics </p></a>
+            </div>
 
         </nav>
+    </div>
 
+    <div>
 
-
-
-
+        <div ng-view>
+        </div>
 
     </div>
 
 </div>
 
-
-
-
-<script src="js/angular.min.js"></script>
 <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-route.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+<!--  <script type="text/javascript" src="controllers/loginController.js"></script> -->
 <script src="app/app.js"></script>
 </body>
 </html>
