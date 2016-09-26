@@ -38,8 +38,6 @@ Directory.config(['$routeProvider',
 
 var MainCtrl = angular.module('MainCtrl', []);
 
-
-
 Directory.controller('MainCtrl', ['$scope','$routeParams',
     function($scope, $routeParams){
         $scope.message = "Bienvenue sur la page d'accueil";
@@ -49,3 +47,7 @@ Directory.controller('MainCtrl', ['$scope','$routeParams',
         }
     }
 ]);
+
+$('.btnMenu').click(function() {
+    $(this).toggleClass("active");
+});

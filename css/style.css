@@ -40,10 +40,8 @@
 
 }
 
-.btnMenu > a:active {
+.btnMenu > a:active .active  {
     background-image:none;
-
-
 }
 
 .btnMenu > a > p{

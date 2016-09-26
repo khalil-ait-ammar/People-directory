@@ -1,0 +1,121 @@
+{
+  "user":[
+    {
+      "id": 3,
+      "name": "Clementine Bauch",
+      "username": "Samantha",
+      "email": "Nathan@yesenia.net"
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "username": "Antonette",
+      "email": "Shanna@melissa.tv"
+    },
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "username": "Bret",
+      "email": "Sincere@april.biz"
+    }
+  ],
+  "compagnies":[
+    {
+      "id": 1,
+      "name": "microsoft",
+      "departements": {
+        "id": 1,
+        "name": "développement informatique",
+        "employes": [
+          {
+            "id": 1,
+            "name": "khalil ait ammar",
+            "email": "khalil@aitammar.com"
+          },
+          {
+            "id": 2,
+            "name": "salma ait ammar",
+            "email": "salma@ammar.biz"
+          },
+          {
+            "id": 3,
+            "name": "salma ait ammar",
+            "email": "salma@ammar.biz"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "appele",
+      "departements": [ {
+        "id": 1,
+        "name": "développement informatique",
+        "employes": [
+          {
+            "id": 1,
+            "name": "khalil ait ammar",
+            "email": "khalil@aitammar.com"
+          },
+          {
+            "id": 2,
+            "name": "salma ait ammar",
+            "email": "salma@ammar.biz"
+          },
+          {
+            "id": 3,
+            "name": "salma ait ammar",
+            "email": "salma@ammar.biz"
+          }
+        ]
+      },
+        {
+          "id": 2,
+          "name": "marketing",
+          "employes": [
+            {
+              "id": 1,
+              "name": "khalil ait ammar",
+              "email": "khalil@aitammar.com"
+            },
+            {
+              "id": 2,
+              "name": "salma ait ammar",
+              "email": "salma@ammar.biz"
+            },
+            {
+              "id": 3,
+              "name": "salma ait ammar",
+              "email": "salma@ammar.biz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "yahoo",
+      "departements": {
+        "id": 1,
+        "name": "développement informatique",
+        "employes": [
+          {
+            "id": 1,
+            "name": "khalil ait ammar",
+            "email": "khalil@aitammar.com"
+          },
+          {
+            "id": 1,
+            "name": "salma ait ammar",
+            "email": "salma@ammar.biz"
+          },
+          {
+            "id": 1,
+            "name": "salma ait ammar",
+            "email": "salma@ammar.biz"
+          }
+        ]
+      }
+    }
+  ]
+}
