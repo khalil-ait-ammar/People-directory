@@ -38,15 +38,39 @@ Directory.config(['$routeProvider',
 
 var MainCtrl = angular.module('MainCtrl', []);
 
-Directory.controller('MainCtrl', ['$scope','$routeParams',
-    function($scope, $routeParams){
-        $scope.message = "Bienvenue sur la page d'accueil";
-        $scope.isActive = false;
-        $scope.activeButton = function() {
-            $scope.isActive = !$scope.isActive;
-        }
+Directory.controller('MainCtrl', function ($scope,$routeParams,$http) {
+
+
+        $http({
+            method: 'GET',
+            url: 'http://localhost:3000/compagnies'
+        }).then(function successCallback(response) {
+
+
+
+                $scope.msg=response.data;
+                console.log($scope.msg);
+
+
+
+
+
+
+
+        }, function errorCallback(response) {
+        console.log(response);
+        });
+
+
+    $scope.message = "Bienvenue sur la page d'accueil";
+    $scope.isActive = false;
+    $scope.activeButton = function() {
+        $scope.isActive = !$scope.isActive;
     }
-]);
+
+
+
+});
 
 $('.btnMenu').click(function() {
     $(this).toggleClass("active");

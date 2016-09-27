@@ -116,6 +116,57 @@
           }
         ]
       }
+    },
+    {
+      "id": 3,
+      "name": "TAG",
+      "departements": {
+        "id": 1,
+        "name": "développement informatique",
+        "employes": [
+          {
+            "id": 1,
+            "name": "khalil ait ammar",
+            "email": "khalil@aitammar.com"
+          },
+          {
+            "id": 1,
+            "name": "salma ait ammar",
+            "email": "salma@ammar.biz"
+          },
+          {
+            "id": 1,
+            "name": "salma ait ammar",
+            "email": "salma@ammar.biz"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "salma",
+      "departements": {
+        "id": 1,
+        "name": "développement informatique",
+        "employes": [
+          {
+            "id": 1,
+            "name": "khalil ait ammar",
+            "email": "khalil@aitammar.com"
+          },
+          {
+            "id": 1,
+            "name": "salma ait ammar",
+            "email": "salma@ammar.biz"
+          },
+          {
+            "id": 1,
+            "name": "salma ait ammar",
+            "email": "salma@ammar.biz"
+          }
+        ]
+      }
     }
+
   ]
 }
