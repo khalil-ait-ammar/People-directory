@@ -25,8 +25,8 @@ Directory.config(['$routeProvider',
                 templateUrl: 'pages/home.html',
                 controller: 'MainCtrl'
             })
-            .when('/contact/:msg?', {
-                templateUrl: 'pages/contact.html',
+            .when('/directory/:msg?', {
+                templateUrl: 'pages/body.html',
                 controller: 'MainCtrl'
             })
             .otherwise({

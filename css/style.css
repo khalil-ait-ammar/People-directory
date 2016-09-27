@@ -56,3 +56,69 @@
  margin-left: 50px;
 }
 
+/* barmid */
+.barmid{
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(232, 235, 232);
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 20px;
+    position: absolute;
+    width: 290px;
+    height: 711px;
+}
+.Companies {
+    font-size: 18px;
+    font-family: "Calibri";
+    color: rgb(50, 50, 50);
+    line-height: 1.2;
+    text-align: left;
+
+
+}
+.BtnAdd {
+
+display: inline-block;
+    background-image: url("../img/BtnAdd.png");
+    background-repeat: no-repeat;
+    width: 65px;
+    height: 35px;
+
+}
+.recherche{
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(204, 204, 204);
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.5);
+
+    width: 170px;
+    height: 26px;
+
+
+}
+.recherche::-webkit-input-placeholder {
+    font-size: 12px;
+    font-family: "Calibri";
+    color: rgb(153, 153, 153);
+    line-height: 1.2;
+    text-align: left;
+
+}
+.listItem {
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(204, 204, 204);
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 261px;
+    height: 631px;
+
+}
