@@ -10,7 +10,7 @@
                                     <p class="Companies">Companies</p>
                                 </div>
                                 <div class="col-md-offset-1 col-md-7">
-                                    <input type="text" class="form-control recherche"  placeholder="Search a company...">
+                                    <input type="text" class="form-control recherche"  placeholder="Search a company..." ng-model="rechercheC">
                                 </div>
 
                             </div>
@@ -19,7 +19,7 @@
                             <div class="row centered">
                                 <div class=" col-md-12 centered">
                                     <div class="listItem">
-                                        <p ng-repeat="x in msg" ng-click="CompaniesSelect(x,$index)">{{x.name}}</p>
+                                        <p ng-repeat="x in msg | filter:rechercheC" ng-click="CompaniesSelect(x,$index)">{{x.name}}</p>
                                     </div>
                                 </div>
                             </div>
@@ -38,7 +38,7 @@
                                     <p class="Companies">Departments</p>
                                 </div>
                                 <div class="col-md-offset-1 col-md-7">
-                                    <input type="text" class="form-control recherche"  placeholder="Search a company...">
+                                    <input type="text" class="form-control recherche"  placeholder="Search a departments..." ng-model="rechercheD">
                                 </div>
 
                             </div>
@@ -47,7 +47,7 @@
                             <div class="row centered">
                                 <div class=" col-md-12 centered">
                                     <div class="listItem">
-                                        <p ng-repeat="x in departement">{{x.name}}</p>
+                                        <p ng-repeat="x in departement | filter:rechercheD">{{x.name}}</p>
                                     </div>
                                 </div>
                             </div>
@@ -66,7 +66,7 @@
                                     <p class="Companies">Companies</p>
                                 </div>
                                 <div class="col-md-offset-1 col-md-7">
-                                    <input type="text" class="form-control recherche"  placeholder="Search a company...">
+                                    <input type="text" class="form-control recherche"  placeholder="Search a company..." ng-model="recherche">
                                 </div>
 
                             </div>
