@@ -46,20 +46,19 @@ Directory.controller('MainCtrl', function ($scope,$routeParams,$http) {
             url: 'http://localhost:3000/compagnies'
         }).then(function successCallback(response) {
 
-
-
                 $scope.msg=response.data;
                 console.log($scope.msg);
-
-
-
-
-
 
 
         }, function errorCallback(response) {
         console.log(response);
         });
+
+
+    $scope.CompaniesSelect = function(x,$index) {
+    console.log(x.departements,$index,"hello");
+        $scope.departement=x.departements;
+    }
 
 
     $scope.message = "Bienvenue sur la page d'accueil";

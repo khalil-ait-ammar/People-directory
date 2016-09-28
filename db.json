@@ -23,7 +23,7 @@
     {
       "id": 1,
       "name": "microsoft",
-      "departements": {
+      "departements": [{
         "id": 1,
         "name": "développement informatique",
         "employes": [
@@ -44,6 +44,7 @@
           }
         ]
       }
+      ]
     },
     {
       "id": 2,
@@ -95,7 +96,7 @@
     {
       "id": 3,
       "name": "yahoo",
-      "departements": {
+      "departements": [{
         "id": 1,
         "name": "développement informatique",
         "employes": [
@@ -116,11 +117,12 @@
           }
         ]
       }
+      ]
     },
     {
       "id": 3,
       "name": "TAG",
-      "departements": {
+      "departements": [{
         "id": 1,
         "name": "développement informatique",
         "employes": [
@@ -141,11 +143,12 @@
           }
         ]
       }
+      ]
     },
     {
       "id": 3,
       "name": "salma",
-      "departements": {
+      "departements": [{
         "id": 1,
         "name": "développement informatique",
         "employes": [
@@ -166,6 +169,7 @@
           }
         ]
       }
+      ]
     }
 
   ]
