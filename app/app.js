@@ -40,24 +40,34 @@ var MainCtrl = angular.module('MainCtrl', []);
 
 Directory.controller('MainCtrl', function ($scope,$routeParams,$http) {
 
+    $scope.CompaniesSelect = function(x,$index) {
+        // console.log(x.departements,$index,"hello");
+        $scope.departement=x.departements;
+    };
 
+  $scope.CompaniesDelete = function (CompaniesSelect, $index) {
+      console.log($scope.$parent.CompaniesSelect.x,$index, 'para');
+
+
+  };
+
+     // recuperation comagnies
         $http({
             method: 'GET',
             url: 'http://localhost:3000/compagnies'
         }).then(function successCallback(response) {
-
                 $scope.msg=response.data;
                 console.log($scope.msg);
-
-
         }, function errorCallback(response) {
         console.log(response);
         });
 
 
-    $scope.CompaniesSelect = function(x,$index) {
-    console.log(x.departements,$index,"hello");
-        $scope.departement=x.departements;
+
+    $scope.EmployeesSelect = function(x,$index) {
+
+        console.log(x.employes,$index,"empl");
+        $scope.Employees=x.employes;
     }
 
 

@@ -1,5 +1,5 @@
 {
-  "user":[
+  "user": [
     {
       "id": 3,
       "name": "Clementine Bauch",
@@ -19,65 +19,87 @@
       "email": "Sincere@april.biz"
     }
   ],
-  "compagnies":[
+  "compagnies": [
     {
       "id": 1,
       "name": "microsoft",
-      "departements": [{
-        "id": 1,
-        "name": "développement informatique",
-        "employes": [
-          {
-            "id": 1,
-            "name": "khalil ait ammar",
-            "email": "khalil@aitammar.com"
-          },
-          {
-            "id": 2,
-            "name": "salma ait ammar",
-            "email": "salma@ammar.biz"
-          },
-          {
-            "id": 3,
-            "name": "salma ait ammar",
-            "email": "salma@ammar.biz"
-          }
-        ]
-      }
+      "departements": [
+        {
+          "id": 1,
+          "name": "développement informatique",
+          "employes": [
+            {
+              "id": 1,
+              "name": "khalil ait ammar microsoft",
+              "email": "khalil@aitammar.com"
+            },
+            {
+              "id": 2,
+              "name": "salma ait ammar microsoft",
+              "email": "salma@ammar.biz"
+            },
+            {
+              "id": 3,
+              "name": "salma ait ammar microsoft",
+              "email": "salma@ammar.biz"
+            }
+          ]
+        }
       ]
     },
     {
       "id": 2,
       "name": "appele",
-      "departements": [ {
-        "id": 1,
-        "name": "développement informatique",
-        "employes": [
-          {
-            "id": 1,
-            "name": "khalil ait ammar",
-            "email": "khalil@aitammar.com"
-          },
-          {
-            "id": 2,
-            "name": "salma ait ammar",
-            "email": "salma@ammar.biz"
-          },
-          {
-            "id": 3,
-            "name": "salma ait ammar",
-            "email": "salma@ammar.biz"
-          }
-        ]
-      },
+      "departements": [
+        {
+          "id": 1,
+          "name": "développement informatique",
+          "employes": [
+            {
+              "id": 1,
+              "name": "khalil ait ammar appele",
+              "email": "khalil@aitammar.com"
+            },
+            {
+              "id": 2,
+              "name": "salma ait ammar appele",
+              "email": "salma@ammar.biz"
+            },
+            {
+              "id": 3,
+              "name": "salma ait ammar appele",
+              "email": "salma@ammar.biz"
+            }
+          ]
+        },
         {
           "id": 2,
           "name": "marketing",
           "employes": [
             {
               "id": 1,
-              "name": "khalil ait ammar",
+              "name": "khalil ait ammar appele2",
               "email": "khalil@aitammar.com"
+            },
+            {
+              "id": 2,
+              "name": "salma ait ammar",
+              "email": "salma@ammar.biz"
+            },
+            {
+              "id": 3,
+              "name": "salma ait ammar",
+              "email": "salma@ammar.biz"
+            },
+            {
+              "id": 2,
+              "name": "salma ait ammar",
+              "email": "salma@ammar.biz"
+            },
+            {
+              "id": 3,
+              "name": "salma ait ammar",
+              "email": "salma@ammar.biz"
             },
             {
               "id": 2,
@@ -96,81 +118,56 @@
     {
       "id": 3,
       "name": "yahoo",
-      "departements": [{
-        "id": 1,
-        "name": "développement informatique",
-        "employes": [
-          {
-            "id": 1,
-            "name": "khalil ait ammar",
-            "email": "khalil@aitammar.com"
-          },
-          {
-            "id": 1,
-            "name": "salma ait ammar",
-            "email": "salma@ammar.biz"
-          },
-          {
-            "id": 1,
-            "name": "salma ait ammar",
-            "email": "salma@ammar.biz"
-          }
-        ]
-      }
+      "departements": [
+        {
+          "id": 1,
+          "name": "développement informatique",
+          "employes": [
+            {
+              "id": 1,
+              "name": "khalil ait ammar yahoo",
+              "email": "khalil@aitammar.com"
+            }
+          ]
+        }
       ]
     },
     {
       "id": 3,
       "name": "TAG",
-      "departements": [{
-        "id": 1,
-        "name": "développement informatique",
-        "employes": [
-          {
-            "id": 1,
-            "name": "khalil ait ammar",
-            "email": "khalil@aitammar.com"
-          },
-          {
-            "id": 1,
-            "name": "salma ait ammar",
-            "email": "salma@ammar.biz"
-          },
-          {
-            "id": 1,
-            "name": "salma ait ammar",
-            "email": "salma@ammar.biz"
-          }
-        ]
-      }
-      ]
-    },
-    {
-      "id": 3,
-      "name": "salma",
-      "departements": [{
-        "id": 1,
-        "name": "développement informatique",
-        "employes": [
-          {
-            "id": 1,
-            "name": "khalil ait ammar",
-            "email": "khalil@aitammar.com"
-          },
-          {
-            "id": 1,
-            "name": "salma ait ammar",
-            "email": "salma@ammar.biz"
-          },
-          {
-            "id": 1,
-            "name": "salma ait ammar",
-            "email": "salma@ammar.biz"
-          }
-        ]
-      }
+      "departements": [
+        {
+          "id": 1,
+          "name": "développement informatique",
+          "employes": [
+            {
+              "id": 1,
+              "name": "khalil ait ammarTAG",
+              "email": "khalil@aitammar.com"
+            },
+            {
+              "id": 1,
+              "name": "salma ait ammarTAG",
+              "email": "salma@ammar.biz"
+            },
+            {
+              "id": 1,
+              "name": "salma ait ammar",
+              "email": "salma@ammar.biz"
+            },
+            {
+              "id": 1,
+              "name": "salma ait ammar",
+              "email": "salma@ammar.biz"
+            },
+            {
+              "id": 1,
+              "name": "salma ait ammar",
+              "email": "salma@ammar.biz"
+            }
+          ]
+        }
       ]
     }
-
   ]
 }

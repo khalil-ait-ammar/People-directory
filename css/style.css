@@ -32,7 +32,7 @@
     color: white;
 }
 .btnMenu:hover {
-
+    border-radius: 12px;
     background-image: -moz-linear-gradient( 90deg, #5b861f 0%, #396900 100%);
     background-image: -webkit-linear-gradient( 90deg, #5b861f 0%, #396900 100%);
     background-image: -ms-linear-gradient( 90deg, #5b861f 0%, #396900 100%);
@@ -41,6 +41,7 @@
 }
 
 .btnMenu > a:active .active  {
+    border-radius: 12px;
     background-image:none;
 }
 
@@ -53,7 +54,7 @@
 
 
 .btnMenu:first-child {
- margin-left: 50px;
+    margin-left: 50px;
 }
 
 /* barmid */
@@ -66,9 +67,9 @@
     background-color: #f7f7f7;
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.25);
     margin-top: 20px;
-    position: absolute;
+
     width: 290px;
-    height: auto;
+    height: 500px;
     padding-bottom: 20px;
 }
 .Companies {
@@ -81,13 +82,21 @@
 
 }
 .BtnAdd {
-
-display: inline-block;
     background-image: url("../img/BtnAdd.png");
     background-repeat: no-repeat;
+    cursor : pointer;
     width: 65px;
     height: 35px;
-
+}
+.btnRemove{
+    cursor : pointer;
+    background-image: url("../img/btnRemove.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-top: 10px;
+    right: 90px;
+    width: 80px;
+    height: 35px;
 }
 .recherche{
     display: inline-block;
@@ -97,7 +106,6 @@ display: inline-block;
     border-radius: 4px;
     background-color: rgb(255, 255, 255);
     box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.5);
-
     width: 170px;
     height: 26px;
 
@@ -120,13 +128,24 @@ display: inline-block;
     background-color: rgb(255, 255, 255);
     margin: 10px 0 0 10px;
     width: 261px;
-    height: auto;
+    height: 420px;
 
 }
 .listItem > p{
     font-size: 12px;
     font-family: "Calibri";
     color: rgb(51, 51, 51);
+    line-height: 2.25;
+    height: 28px;
+    cursor : pointer;
+    vertical-align: middle;
+    text-align: left;
+    margin-bottom: 0;
+}
+.listItem > p {
+    font-size: 12px;
+    font-family: "Calibri";
+
     line-height: 2.25;
     height: 28px;
     cursor : pointer;
