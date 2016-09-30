@@ -44,6 +44,48 @@
               "email": "salma@ammar.biz"
             }
           ]
+        },
+        {
+          "id": 2,
+          "name": "développement informatique 2",
+          "employes": [
+            {
+              "id": 1,
+              "name": "khalil ait ammar microsoft",
+              "email": "khalil@aitammar.com"
+            },
+            {
+              "id": 2,
+              "name": "salma ait ammar microsoft",
+              "email": "salma@ammar.biz"
+            },
+            {
+              "id": 3,
+              "name": "salma ait ammar microsoft",
+              "email": "salma@ammar.biz"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "développement informatique 3",
+          "employes": [
+            {
+              "id": 1,
+              "name": "khalil ait ammar microsoft",
+              "email": "khalil@aitammar.com"
+            },
+            {
+              "id": 2,
+              "name": "salma ait ammar microsoft",
+              "email": "salma@ammar.biz"
+            },
+            {
+              "id": 3,
+              "name": "salma ait ammar microsoft",
+              "email": "salma@ammar.biz"
+            }
+          ]
         }
       ]
     },
@@ -122,6 +164,27 @@
         {
           "id": 1,
           "name": "développement informatique",
+          "employes": [
+            {
+              "id": 1,
+              "name": "khalil ait ammar yahoo",
+              "email": "khalil@aitammar.com"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "développement informatique 2",
+          "employes": [
+            {
+              "id": 1,
+              "name": "khalil ait ammar yahoo",
+              "email": "khalil@aitammar.com"
+            }
+          ]
+        },     {
+          "id": 3,
+          "name": "développement informatique 3",
           "employes": [
             {
               "id": 1,

@@ -1,92 +1,38 @@
 <div ng-controller="MainCtrl">
     <div class="row">
         <div class="col-md-offset-1 col-md-3">
-            <div class="barmid">
-                <div class="row">
-                    <div class="col-md-4  bloc">
-                        <div class="header">
-                            <div class="row">
-                                <div class="col-md-offset-1 col-md-11">
-                                    <p class="Companies">Companies</p>
-                                </div>
-                                <div class="col-md-offset-1 col-md-7">
-                                    <input type="text" class="form-control recherche"  placeholder="Search a company..." ng-model="rechercheC">
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="divmid">
-                            <div class="row centered">
-                                <div class=" col-md-12 centered">
-                                    <div class="listItem">
-                                        <p ng-repeat="x in msg | filter:rechercheC" ng-click="CompaniesSelect(x,$index)">{{x.name}}</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div  class="btnRemove" ng-click="CompaniesDelete(x,$index)">
-            </div>
+            <mail msg="msg"></mail>
         </div>
         <div class="col-md-3">
-            <div class="barmid">
-                <div class="row">
-                    <div class="col-md-4  bloc">
-                        <div class="header">
-                            <div class="row">
-                                <div class="col-md-offset-1 col-md-11">
-                                    <p class="Companies">Departments</p>
-                                </div>
-                                <div class="col-md-offset-1 col-md-7">
-                                    <input type="text" class="form-control recherche"  placeholder="Search a departments..." ng-model="rechercheD">
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="divmid">
-                            <div class="row centered">
-                                <div class=" col-md-12 centered">
-                                    <div class="listItem">
-                                        <p ng-repeat="x in departement | filter:rechercheD" ng-click="EmployeesSelect(x,$index)">{{x.name}}</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div align="left" class="btnRemove">
-            </div>
+            <mail2 departement="departement"></mail2>
         </div>
 
         <div class="col-md-3">
             <div class="barmid">
-                        <div class="header">
-                            <div class="row">
-                                <div class="col-md-offset-1 col-md-11">
-                                    <p class="Companies">employees</p>
-                                </div>
-                                <div class="col-md-offset-1 col-md-7">
-                                    <input type="text" class="form-control recherche"  placeholder="Search a employees..." ng-model="rechercheE">
+                <div class="header">
+                    <div class="row">
+                        <div class="col-md-offset-1 col-md-11">
+                            <p class="Companies">employees</p>
+                        </div>
+                        <div class="col-md-offset-1 col-md-7">
+                            <input type="text" class="form-control recherche"  placeholder="Search a employees..." ng-model="rechercheE">
 
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="BtnAdd">
-                                    </div>
-                                </div>
-
+                        </div>
+                        <div class="col-md-3">
+                            <div class="BtnAdd">
                             </div>
                         </div>
-                        <div class="divmid">
-                            <div class="row centered">
-                                <div class=" col-md-12 centered">
-                                    <div class="listItem">
-                                        <p ng-repeat="x in Employees | filter:rechercheE">{{x.name}}</p>
-                                    </div>
-                                </div>
+
+                    </div>
+                </div>
+                <div class="divmid">
+                    <div class="row centered">
+                        <div class=" col-md-12 centered">
+                            <div class="listItem">
+                                <p ng-repeat="x in Employees | filter:rechercheE">{{x.name}}</p>
                             </div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
