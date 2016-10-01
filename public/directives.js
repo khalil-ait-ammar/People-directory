@@ -2,7 +2,7 @@ angular.module("MesDirectives", [])
     .directive("mail2", function() {
         return {
             restrict: "E",
-            template: '                 <div class="barmid">\
+            template: '<div class="barmid">\
             <div class="row">\
             <div class="col-md-4  bloc">\
             <div class="header">\
@@ -35,7 +35,7 @@ angular.module("MesDirectives", [])
                 function recup () {
                     $http({
                         method: 'GET',
-                        url: 'http://localhost:3000/compagnies'
+                        url: '/compagnies'
                     }).then(function successCallback(response) {
                         $scope.msg=response.data;
                         console.log($scope.msg);
@@ -91,7 +91,7 @@ angular.module("MesDirectives", [])
 
                 $http({
                     method: 'DELETE',
-                    url: 'http://localhost:3000/compagnies/'+$scope.compid
+                    url: '/compagnies/'+$scope.compid
                 }).then(function successCallback(response) {
 
                  $scope.msg.splice($scope.compindex,1);
@@ -105,7 +105,7 @@ angular.module("MesDirectives", [])
             function recup () {
                 $http({
                     method: 'GET',
-                    url: 'http://localhost:3000/compagnies'
+                    url: '/compagnies'
                 }).then(function successCallback(response) {
                     $scope.msg=response.data;
                     console.log($scope.msg);

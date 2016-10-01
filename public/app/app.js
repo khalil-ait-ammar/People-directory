@@ -43,11 +43,11 @@ Directory.controller('MainCtrl', function ($scope,$routeParams,$http) {
 
 
 
-     // recuperation comagnies
-function recup () {
+     // recuperation compagnies
+     function recup () {
         $http({
             method: 'GET',
-            url: 'http://localhost:3000/compagnies'
+            url: '/compagnies'
         }).then(function successCallback(response) {
             $scope.msg=response.data;
             console.log($scope.msg);
@@ -56,11 +56,10 @@ function recup () {
         });
 
     };
-recup();
+    recup();
 
 
     $scope.EmployeesSelect = function(x,$index) {
-
         console.log(x.employes,$index,"empl");
         $scope.Employees=x.employes;
     }
@@ -76,6 +75,3 @@ recup();
 
 });
 
-$('.btnMenu').click(function() {
-    $(this).toggleClass("active");
-});
