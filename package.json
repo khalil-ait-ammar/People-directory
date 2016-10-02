@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/khalil-ait-ammar/People-directory#readme",
   "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
     "json-server": "^0.8.21"
   }
 }
