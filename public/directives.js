@@ -26,7 +26,8 @@ angular.module("MesDirectives", [])
                         method: 'DELETE',
                         url: '/compagnies/'+$scope.compindex
                     }).then(function successCallback(response) {
-                        $scope.msg.splice($scope.compindex,1);
+                        console.log("delete companies");
+                        $scope.compagnies.splice($scope.compindex,1);
                         $scope.departement=null;
                         console.log(response);
                     }, function errorCallback(response) {
@@ -60,6 +61,7 @@ angular.module("MesDirectives", [])
                         method: 'DELETE',
                         url: '/departements/'+$scope.depid
                     }).then(function successCallback(response) {
+                          console.log("delete dep ",$scope.depid);
                            $scope.Employees=null;
                         $scope.departement.splice($scope.depid,1);
                     }, function errorCallback(response) {
@@ -83,18 +85,20 @@ angular.module("MesDirectives", [])
             // recuperation des departements par companies sélectionnée   
             
                 $scope.EmployeesClique = function (x, $index) {
-                    $scope.employeID=$index;
+                    $scope.employeIN=$index;
+                    $scope.employeID=x.id;
+                    
               
                 };
             
             // suppresion de la companies sélectionnée & vidage des departements afficher  
-               
+             
                 $scope.EmployeesDelete =function () {
                     $http({
                         method: 'DELETE',
                         url: '/employes/'+$scope.employeID
                     }).then(function successCallback(response) {
-                        $scope.Employees.splice($scope.employeID,1);
+                        $scope.Employees.splice($scope.employeIN,1);
                         console.log(response, "delete employees");
                     }, function errorCallback(response) {
                         console.log(response);

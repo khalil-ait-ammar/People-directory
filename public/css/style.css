@@ -154,9 +154,44 @@
 }
 
 .listItem > p:nth-child(2n+0) {
-
     border-radius: 3px;
     background-color: #f8f8f8;
+}
 
+.modaldelete{
+    height: 230px;
+    width: 450px;
+}
+.alert{
+display: inline-block;
+}
+.alert > img{
+ vertical-align: super !important;
+}
+.textalert{
+display: inline-block;
+}
+
+.modaldelete > .headermodal{
+  padding: 30px 0px 0px 0px;
+    height: 200px;
+}
+.modaldelete > .footermodal{
+    padding: 20px 20px 0px 0px;
+    text-align: right;
+    height: 76px;
+    background-color:#efefef;
+
+}
+.modaldelete > .footermodal > div{
+display: inline-block;
+margin-bottom: -10px;
+
+}
+.btndelete{
+    background-image: url("../img/delete.png");
+        background-repeat: no-repeat;
+    width: 80px;
+    height: 35px;
 
 }

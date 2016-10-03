@@ -24,6 +24,33 @@
             </div>
         </div>
     </div>
-    <div  class="btnRemove" ng-click="CompaniesDelete()">
+    <div  class="btnRemove" data-toggle="modal" data-target="#myModal" >
     </div>
+    
+    
+     <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content modaldelete">
+        <div class="headermodal">
+            <div class="alert">    <img src="img/alarm.jpg"></img></div> 
+         <div class="textalert">
+        are you sur to want to delete this compagnie ? <br>
+          this action is irreversible<br>
+          <br>
+          <input type="checkbox"  value="Bike">Don't ask me again<br>
+         </div>
+        </div>
+        <div class="footermodal">
+          <div  data-dismiss="modal">cancel </div>
+          <div class="btndelete" data-dismiss="modal" ng-click="CompaniesDelete()"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    
+    
 </div>

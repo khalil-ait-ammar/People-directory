@@ -1,28 +1,49 @@
 <div class="barmid">
+   <div class="row">
+      <div class="col-md-4  bloc">
+         <div class="header">
             <div class="row">
-            <div class="col-md-4  bloc">
-            <div class="header">
-            <div class="row">
-            <div class="col-md-offset-1 col-md-11">
-            <p class="Companies">Departments</p>
+               <div class="col-md-offset-1 col-md-11">
+                  <p class="Companies">Departments</p>
+               </div>
+               <div class="col-md-offset-1 col-md-7">
+                  <input type="text" class="form-control recherche"  placeholder="Search a departments..." ng-model="rechercheD">
+               </div>
             </div>
-            <div class="col-md-offset-1 col-md-7">
-            <input type="text" class="form-control recherche"  placeholder="Search a departments..." ng-model="rechercheD">
-            </div>
-            </div>
-            </div>
-            <div class="divmid">
+         </div>
+         <div class="divmid">
             <div class="row centered">
-            <div class=" col-md-12 centered">
-            <div class="listItem">
-            <p ng-repeat="y in departement | filter:rechercheD" ng-click="EmployeesSelect(y,$index)">{{y.name}}</p>
+               <div class=" col-md-12 centered">
+                  <div class="listItem">
+                     <p ng-repeat="y in departement | filter:rechercheD" ng-click="EmployeesSelect(y,$index)">{{y.name}}</p>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
-        <div  class="btnRemove" ng-click="DepartmentsDelete()">
+   </div>
+</div>
+<div  class="btnRemove" data-toggle="modal" data-target="#myModal1">
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal1" role="dialog">
+   <div class="modal-dialog">
+      <!-- Modal content-->
+      <div class="modal-content modaldelete">
+         <div class="headermodal">
+            <div class="alert">    <img src="img/alarm.jpg"></img></div>
+            <div class="textalert">
+               are you sur to want to delete this compagnie ? <br>
+               this action is irreversible<br>
+               <br>
+               <input type="checkbox"  value="Bike">Don't ask me again<br>
             </div>
-            </div>
+         </div>
+         <div class="footermodal">
+            <div  data-dismiss="modal">cancel </div>
+            <div class="btndelete" data-dismiss="modal" ng-click="DepartmentsDelete()"></div>
+         </div>
+      </div>
+   </div>
+</div>
+</div>
