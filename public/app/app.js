@@ -49,8 +49,8 @@ Directory.controller('MainCtrl', function ($scope,$routeParams,$http) {
             method: 'GET',
             url: '/compagnies'
         }).then(function successCallback(response) {
-            $scope.msg=response.data;
-            console.log($scope.msg);
+            $scope.compagnies=response.data;
+            console.log($scope.compagnies);
         }, function errorCallback(response) {
             console.log(response);
         });
@@ -58,11 +58,6 @@ Directory.controller('MainCtrl', function ($scope,$routeParams,$http) {
     };
     recup();
 
-
-    $scope.EmployeesSelect = function(x,$index) {
-        console.log(x.employes,$index,"empl");
-        $scope.Employees=x.employes;
-    }
 
 
     $scope.message = "Bienvenue sur la page d'accueil";

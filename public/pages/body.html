@@ -1,43 +1,14 @@
 <div ng-controller="MainCtrl">
     <div class="row">
         <div class="col-md-offset-1 col-md-3">
-            <mail msg="msg"></mail>
+            <compagnies compagnies="compagnies"></compagnies>
         </div>
         <div class="col-md-3">
-            <mail2 departement="departement"></mail2>
+            <departement ></departement>
         </div>
 
         <div class="col-md-3">
-            <div class="barmid">
-                <div class="header">
-                    <div class="row">
-                        <div class="col-md-offset-1 col-md-11">
-                            <p class="Companies">employees</p>
-                        </div>
-                        <div class="col-md-offset-1 col-md-7">
-                            <input type="text" class="form-control recherche"  placeholder="Search a employees..." ng-model="rechercheE">
-
-                        </div>
-                        <div class="col-md-3">
-                            <div class="BtnAdd">
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="divmid">
-                    <div class="row centered">
-                        <div class=" col-md-12 centered">
-                            <div class="listItem">
-                                <p ng-repeat="x in Employees | filter:rechercheE">{{x.name}}</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div align="left" class="btnRemove">
-            </div>
+           <employees ></employees>
         </div>
 
 

@@ -34,162 +34,335 @@
     },
     {
       "id": 3,
-      "name": "TAG"
+      "name": "amazon"
     }
   ],
   "departements": [
     {
       "id": 0,
-      "compagniesID":0,
-      "name": "développement informatique"
-
+      "compagniesID": 0,
+      "name": "Lorem ipsum dolor 0"
     },
     {
       "id": 1,
-      "compagniesID":0,
-      "name": "développement informatique 2"
-
+      "compagniesID": 0,
+      "name": "développement marketing 0"
     },
     {
       "id": 2,
-      "compagniesID":0,
-      "name": "développement informatique 3"
-
+      "compagniesID": 0,
+      "name": "développement R&D 0"
     },
     {
-      "id": 3,
-      "compagniesID":0,
-      "name": "développement informatique 3"
-
+      "id": 4,
+      "compagniesID": 1,
+      "name": "développement informatique 1"
     },
     {
-      "id": 2,
-      "compagniesID":0,
-      "name": "développement informatique 3"
-
+      "id": 5,
+      "compagniesID": 2,
+      "name": "développement humain  1"
     },
     {
-      "id": 2,
-      "compagniesID":0,
-      "name": "développement informatique 3"
-
+      "id": 7,
+      "compagniesID": 2,
+      "name": "développement ecomerce 2"
     },
     {
-      "id": 2,
-      "compagniesID":0,
-      "name": "développement informatique 3"
-
+      "id": 8,
+      "compagniesID": 2,
+      "name": "Nullam sodales diam 2"
     },
     {
-      "id": 2,
-      "compagniesID":0,
-      "name": "développement informatique 3"
-
+      "id": 9,
+      "compagniesID": 1,
+      "name": "Cras commodo lectus 1"
     },
     {
-      "id": 2,
-      "compagniesID":0,
-      "name": "développement informatique 3"
-
+      "id": 10,
+      "compagniesID": 3,
+      "name": "sed mattis luctus 3"
     },
     {
-      "id": 2,
-      "compagniesID":0,
-      "name": "développement informatique 3"
-
+      "id": 11,
+      "compagniesID": 0,
+      "name": "Quisque sollicitudin 0"
     },
     {
-      "id": 2,
-      "compagniesID":0,
-      "name": "développement informatique 3"
-
+      "id": 12,
+      "compagniesID": 0,
+      "name": "nunc ut lacinia ultrices 0"
     },
     {
-      "id": 2,
-      "compagniesID":0,
-      "name": "développement informatique 3"
-
+      "id": 13,
+      "compagniesID": 0,
+      "name": "Integer at odio bibendum 0"
+    },
+    {
+      "id": 14,
+      "compagniesID": 1,
+      "name": "commodo dolor sit amet 1"
+    },
+    {
+      "id": 15,
+      "compagniesID": 1,
+      "name": "aliquam lorem 1"
+    },
+    {
+      "id": 16,
+      "compagniesID": 2,
+      "name": "Pellentesque id magna 2"
+    },
+    {
+      "id": 17,
+      "compagniesID": 1,
+      "name": "com tolor sie amet 1"
+    },
+    {
+      "id": 18,
+      "compagniesID": 1,
+      "name": "aliquaeem lorekham 1"
+    },
+    {
+      "id": 19,
+      "compagniesID": 3,
+      "name": "Pellentesque zhar magna 3"
     }
   ],
   "employes": [
     {
-      "id": 0,
-      "departementsID":0,
-      "name": "khalil ait ammar microsoft",
+      "id": 1,
+      "departementsID": 2,
+      "name": "unde omnis iste",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 5,
+      "departementsID": 6,
+      "name": " vooppptatem eefantium ",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 6,
+      "departementsID": 7,
+      "name": " hhtmp dddggth ",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 7,
+      "departementsID": 8,
+      "name": "salma ait ammar microsoft",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 8,
+      "departementsID": 9,
+      "name": "salma ait ammar microsoft",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 9,
+      "departementsID": 10,
+      "name": "ratione voluptatem",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 10,
+      "departementsID": 11,
+      "name": "sequi nesciunt",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 11,
+      "departementsID": 12,
+      "name": "Neque porro quisquam",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 12,
+      "departementsID": 13,
+      "name": "qui dolorem ipsum",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 13,
+      "departementsID": 14,
+      "name": "quia dolor sit",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 14,
+      "departementsID": 15,
+      "name": "adipisci velit",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 15,
+      "departementsID": 16,
+      "name": "numquam eius modi",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 17,
+      "departementsID": 2,
+      "name": "labore et dolore magnam",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 18,
+      "departementsID": 3,
+      "name": "dolore magnamtatem",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 19,
+      "departementsID": 4,
+      "name": "enim ad minima veniam",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 20,
+      "departementsID": 5,
+      "name": "quis nostrum exercitationem",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 21,
+      "departementsID": 6,
+      "name": "ullam corporis suscipit",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 22,
+      "departementsID": 7,
+      "name": "commodi consequatur",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 23,
+      "departementsID": 8,
+      "name": "Quis autem vel eum",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 25,
+      "departementsID": 10,
+      "name": "voluptate velit esse quam",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 26,
+      "departementsID": 11,
+      "name": "nihil molestiae consequatur",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 27,
+      "departementsID": 12,
+      "name": "vero eos et accusamus",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 28,
+      "departementsID": 13,
+      "name": "iusto odio dignissimos",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 29,
+      "departementsID": 14,
+      "name": "iddggto odgrgio dignissimos",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 30,
+      "departementsID": 15,
+      "name": "ducimus qui blanditiis",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 31,
+      "departementsID": 16,
+      "name": "praesentium voluptatum",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 34,
+      "departementsID": 2,
+      "name": "quas molestias",
       "email": "khalil@aitammar.com"
     },
     {
-      "id": 1,
-      "departementsID":0,
+      "id": 35,
+      "departementsID": 2,
+      "name": "excepturi sint occaecati",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 36,
+      "departementsID": 2,
+      "name": "cupiditate non provident",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 38,
+      "departementsID": 3,
+      "name": "officia deserunt mollitia",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 39,
+      "departementsID": 4,
+      "name": "ddfrg deserunt mollitia",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 41,
+      "departementsID": 4,
       "name": "salma ait ammar microsoft",
       "email": "salma@ammar.biz"
     },
     {
-      "id": 2,
-      "departementsID":0,
+      "id": 42,
+      "departementsID": 4,
+      "name": "optio cumque nihil impedit",
+      "email": "salma@ammar.biz"
+    },
+    {
+      "id": 43,
+      "departementsID": 6,
       "name": "salma ait ammar microsoft",
       "email": "salma@ammar.biz"
     },
     {
-      "id": 1,
-      "departementsID":0,
-      "name": "salma ait ammar microsoft",
+      "id": 44,
+      "departementsID": 6,
+      "name": "khalil microsoft",
       "email": "salma@ammar.biz"
     },
     {
-      "id": 2,
-      "departementsID":0,
-      "name": "salma ait ammar microsoft",
+      "id": 46,
+      "departementsID": 12,
+      "name": "walid",
       "email": "salma@ammar.biz"
     },
     {
-      "id": 1,
-      "departementsID":0,
-      "name": "salma ait ammar microsoft",
+      "id": 47,
+      "departementsID": 12,
+      "name": "amine ait",
       "email": "salma@ammar.biz"
     },
     {
-      "id": 2,
-      "departementsID":0,
-      "name": "salma ait ammar microsoft",
+      "id": 49,
+      "departementsID": 12,
+      "name": "faysel",
       "email": "salma@ammar.biz"
     },
     {
-      "id": 1,
-      "departementsID":0,
-      "name": "salma ait ammar microsoft",
-      "email": "salma@ammar.biz"
-    },
-    {
-      "id": 2,
-      "departementsID":0,
-      "name": "salma ait ammar microsoft",
-      "email": "salma@ammar.biz"
-    },
-    {
-      "id": 1,
-      "departementsID":0,
-      "name": "salma ait ammar microsoft",
-      "email": "salma@ammar.biz"
-    },
-    {
-      "id": 2,
-      "departementsID":0,
-      "name": "salma ait ammar microsoft",
-      "email": "salma@ammar.biz"
-    },
-    {
-      "id": 1,
-      "departementsID":0,
-      "name": "salma ait ammar microsoft",
-      "email": "salma@ammar.biz"
-    },
-    {
-      "id": 2,
-      "departementsID":0,
-      "name": "salma ait ammar microsoft",
+      "id": 40,
+      "departementsID": 11,
+      "name": "lyes",
       "email": "salma@ammar.biz"
     }
   ]
-
 }
