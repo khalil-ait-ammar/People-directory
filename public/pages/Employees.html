@@ -1,32 +1,29 @@
- <div class="barmid">
-                <div class="header">
-                    <div class="row">
-                        <div class="col-md-offset-1 col-md-11">
-                            <p class="Companies">employees</p>
-                        </div>
-                        <div class="col-md-offset-1 col-md-7">
-                            <input type="text" class="form-control recherche"  placeholder="Search a employees..." ng-model="rechercheE">
-                        </div>
-                        <div class="col-md-3">
-                            <div class="BtnAdd" ng-click="EmployeesAdd()">
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="divmid">
-                    <div class="row centered">
-                        <div class=" col-md-12 centered">
-                            <div class="listItem">
-                                <p ng-repeat="x in Employees | filter:rechercheE" ng-click="EmployeesClique(x,$index)">{{x.name}}</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+<div class="barmid">
+   <div class="header">
+      <div class="row">
+         <div class="col-md-offset-1 col-md-11">
+            <p class="Companies">employees</p>
+         </div>
+         <div class="col-md-offset-1 col-md-7">
+            <input type="text" class="form-control recherche"  placeholder="Search a employees..." ng-model="rechercheE">
+         </div>
+         <div class="col-md-3">
+            <div class="BtnAdd" data-toggle="modal" data-target="#myModalADD">
             </div>
-            <div  class="btnRemove" data-toggle="modal" data-target="#myModal2">
+         </div>
+      </div>
+   </div>
+   <div class="divmid">
+      <div class="row centered">
+         <div class=" col-md-12 centered">
+            <div class="listItem">
+               <p ng-repeat="x in Employees | filter:rechercheE" ng-click="EmployeesClique(x,$index)">{{x.name}}</p>
+            </div>
+         </div>
+      </div>
+   </div>
 </div>
+<div  class="btnRemove" data-toggle="modal" data-target="#myModal2"></div>
 <!-- Modal -->
 <div class="modal fade" id="myModal2" role="dialog">
    <div class="modal-dialog">
@@ -48,4 +45,99 @@
       </div>
    </div>
 </div>
+<!-- Modal ADD-->
+<div class="modal fade" id="myModalADD" role="dialog">
+<div class="modal-dialog modaladd">
+   <!-- Modal content-->
+   <div class="modal-content">
+      <p><b> Add Employee</b></p>
+      <div class="row">
+         <form name="myForm">
+         <div class="col-md-6">
+            <p style=" background-color: #f2f2f2;"> Personnal informations</p>
+            <br>
+            <br>
+            <div class="row">
+               <div class="inputEmployee">
+                  <div class="col-md-offset-1 col-md-3"> name:
+                  </div>
+                  <div class="col-md-8"> <input type="text" name="fname" ng-model="addname" required>
+                  </div>
+               </div>
+               <br>
+               <div class="inputEmployee">
+                  <div class="col-md-offset-1 col-md-3"> Email:
+                  </div>
+                  <div class="col-md-8"> <input type="text" name="femail" ng-model="addEmail" required>
+                  </div>
+               </div>
+               <br>
+               <div class="inputEmployee">
+                  <div class="col-md-offset-1 col-md-3"> phone:
+                  </div>
+                  <div class="col-md-8"> <input type="text" ng-model="addphone" required>
+                  </div>
+               </div>
+               <br>
+               <div class="inputEmployee">
+                  <div class="col-md-offset-1 col-md-3"> celphone:
+                  </div>
+                  <div class="col-md-8"> <input type="text" ng-model="celphone" required>
+                  </div>
+               </div>
+               <br>
+               <div class="inputEmployee">
+                  <div class="col-md-offset-1 col-md-3"> location:
+                  </div>
+                  <div class="col-md-8"> <input type="text" ng-model="location" required>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-md-6">
+            <p style=" background-color: #f2f2f2;"> Professionnal informations</p>
+            <br>
+            <br>
+            <div class="row">
+               <div class="inputEmployee">
+                  <div class="col-md-offset-1 col-md-3"> title:
+                  </div>
+                  <div class="col-md-8"> <input type="text" ng-model="addtitle" required>
+                  </div>
+               </div>
+               <br>
+               <div class="inputEmployee">
+                  <div class="col-md-offset-1 col-md-3"> Company:
+                  </div>
+                 <select style="width: 200px;" ng-model="selectedCompany"  ng-options="x.name for x in form1">
+                 </select>
+               </div>
+               <br>
+               <div class="inputEmployee">
+                  <div class="col-md-offset-1 col-md-3"> Department:
+                  </div>
+                   <select style="width: 200px;" ng-model="selectedDepartment"  ng-options="z.name for z in form2">
+                 </select>
+               </div>
+               <br>
+               <div class="inputEmployee">
+                  <div class="col-md-offset-1 col-md-3"> Start date:
+                  </div>
+                  <div class="col-md-8"> <input type="date" ng-model="Startdate" required>
+                  </div>
+               </div>
+               <br>
+               <div class="inputEmployee">
+                  <div class="col-md-offset-1 col-md-3"> End date:
+                  </div>
+                  <div class="col-md-8"> <input type="date" ng-model="Enddate" required>
+                  </div>
+               </div>
+            </div>
+         </div>
+           <button type="button" id="btnadd" class="btn btn-default" ng-click="EmployeesAdd(myForm)" style=" float: right;
+    margin: 20px 30px;">OK</button>
+   </form>
+      </div>
+   </div>
 </div>
